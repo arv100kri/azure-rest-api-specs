@@ -3518,12 +3518,19 @@
     },
     "DataSourceType": {
       "type": "string",
+      "enum": [
+        "azuresql",
+        "cosmosdb",
+        "azureblob",
+        "azuretable",
+        "asdasds"
+      ],
       "x-ms-enum": {
         "name": "DataSourceType",
         "modelAsString": false,
         "values": [
           {
-            "value": "asdasdsa",
+            "value": "azuresql",
             "name": "AzureSql"
           },
           {
@@ -3539,8 +3546,9 @@
             "name": "AzureTable"
           },
           {
-            "value": "newValue"
-          }
+            "value": "asdasds",
+            "name": "asdasds"
+          },
         ]
       },
       "description": "Defines the type of a datasource."
