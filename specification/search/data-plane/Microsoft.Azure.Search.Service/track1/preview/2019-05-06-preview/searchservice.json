@@ -3529,16 +3529,20 @@
         "modelAsString": false,
         "values": [
           {
-            "value": "AzureSql"
+            "value": "azuresql",
+            "name": "AzureSql"
           },
           {
-            "value": "CosmosDb"
+            "value": "cosmosdb",
+            "name": "CosmosDb"
           },
           {
-            "value": "AzureBlob"
+            "value": "azureblob",
+            "name": "AzureBlob"
           },
           {
-            "value": "AzureTable"
+            "value": "azuretable",
+            "name": "AzureTable"
           }
         ]
       },
