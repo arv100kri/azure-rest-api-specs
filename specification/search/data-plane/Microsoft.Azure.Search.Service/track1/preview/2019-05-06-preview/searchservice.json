@@ -3529,7 +3529,7 @@
         "modelAsString": false,
         "values": [
           {
-            "value": "azuresql",
+            "value": "azuresql1",
             "name": "AzureSql"
           },
           {
