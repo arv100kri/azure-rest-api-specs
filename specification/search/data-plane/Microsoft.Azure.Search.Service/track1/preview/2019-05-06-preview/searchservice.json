@@ -3518,12 +3518,6 @@
     },
     "DataSourceType": {
       "type": "string",
-      "enum": [
-        "azuresql",
-        "cosmosdb",
-        "azureblob",
-        "azuretable"
-      ],
       "x-ms-enum": {
         "name": "DataSourceType",
         "modelAsString": false,
