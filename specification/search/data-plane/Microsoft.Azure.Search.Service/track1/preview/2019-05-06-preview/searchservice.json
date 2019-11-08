@@ -3537,6 +3537,9 @@
           {
             "value": "azuretable",
             "name": "AzureTable"
+          },
+          {
+            "value": "newValue"
           }
         ]
       },
