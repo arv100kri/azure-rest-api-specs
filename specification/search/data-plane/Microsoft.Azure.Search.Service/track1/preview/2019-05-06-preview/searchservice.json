@@ -3548,7 +3548,7 @@
           {
             "value": "asdasds",
             "name": "asdasds"
-          },
+          }
         ]
       },
       "description": "Defines the type of a datasource."
@@ -3563,6 +3563,10 @@
           "description": "The name of the datasource."
         },
         "description": {
+          "type": "string",
+          "description": "The description of the datasource."
+        },
+        "description2": {
           "type": "string",
           "description": "The description of the datasource."
         },
