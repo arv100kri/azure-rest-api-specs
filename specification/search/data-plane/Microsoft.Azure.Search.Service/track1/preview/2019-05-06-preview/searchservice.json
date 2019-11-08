@@ -3526,7 +3526,21 @@
       ],
       "x-ms-enum": {
         "name": "DataSourceType",
-        "modelAsString": false
+        "modelAsString": false,
+        "values": [
+          {
+            "value": "AzureSql"
+          },
+          {
+            "value": "CosmosDb"
+          },
+          {
+            "value": "AzureBlob"
+          },
+          {
+            "value": "AzureTable"
+          }
+        ]
       },
       "description": "Defines the type of a datasource."
     },
