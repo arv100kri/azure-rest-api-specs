@@ -1460,7 +1460,7 @@
             ]
           }
         },
-        "EncryptionComplianceStatus": {
+        "encryptionComplianceStatus": {
           "readOnly": true,
           "description": "Describes whether the search service is compliant or not with respect to having non customer encrypted resources. If a service has more than one non customer encrypted resource and 'Enforcement' is 'enabled' then the service will be marked as 'nonCompliant'.",
           "type": "string",
@@ -1872,7 +1872,7 @@
         },
         "publicNetworkAccess": {
           "type": "string",
-          "default": "Enabled",
+          "default": "enabled",
           "description": "This value can be set to 'enabled' to avoid breaking changes on existing customer resources and templates. If set to 'disabled', traffic over public interface is not allowed, and private endpoint connections would be the exclusive access method.",
           "enum": [
             "enabled",
